@@ -1,0 +1,105 @@
+/* ===== Task 1: Links ===== */
+.link-box {
+    display: block;
+    padding: 12px;
+    text-align: center;
+}
+
+#link1 {
+    background-color: #a8f0b8;
+    color: red;
+}
+
+#link2 {
+    background-color: #555555;
+    color: gold;
+}
+
+#link3 {
+    background-color: black;
+    color: white;
+}
+
+.link-box:link {
+    text-decoration: underline;
+}
+
+.link-box:visited {
+    font-style: italic;
+}
+
+.link-box:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link-box:active {
+    background-color: #008CBA;
+    color: white;
+}
+
+/* ===== Task 2: Text formatting ===== */
+.formatting-title {
+    color: green;
+    background-color: #f5f5dc;
+    padding: 10px;
+}
+
+.formatting-text {
+    font-family: verdana;
+}
+
+/* ===== Task 3: Listing ===== */
+.listing-title {
+    color: white;
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+.listing {
+    font-size: 13px;
+}
+
+/* ===== Task 4: Tables ===== */
+#fruits-table {
+    margin: 0 auto 20px auto;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#fruits-table caption {
+    font-weight: bold;
+    width: 100px;
+    margin: 0 auto;
+}
+
+#fruits-table th,
+#fruits-table td {
+    border: 1px solid black;
+}
+
+#camelid-table {
+    margin: 0 auto;
+    width: 610px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#camelid-table th,
+#camelid-table td {
+    border: 1px solid black;
+}
+
+#camelid-table img {
+    width: 170px;
+    height: 140px;
+    object-fit: cover;
+}
+
+#camelid-table .camelid-head {
+    height: 90px;
+}
+
+#camelid-table .column-head {
+    height: 50px;
+}
